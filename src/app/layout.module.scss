@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100dvh;
+  background: -webkit-radial-gradient(#fff, #eaeaea);
+  background: -o-radial-gradient(#fff, #eaeaea);
+  background: -moz-radial-gradient(#fff, #eaeaea);
+  background: radial-gradient(#fff, #eaeaea);
+  overflow: hidden;
+}
