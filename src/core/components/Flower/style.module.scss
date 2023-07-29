@@ -1,0 +1,79 @@
+.svg {
+  width: 400px;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 2.16463;
+
+  > g {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    > path {
+      fill: none;
+    }
+  }
+}
+
+.sixth {
+  animation: Animation 10s ease forwards;
+  animation-delay: 16.5s;
+  path {
+    stroke: rgb(127, 154, 104);
+    stroke-width: 22.92px;
+  }
+}
+
+.fifth {
+  animation: Animation 10s ease forwards;
+  animation-delay: 13.5s;
+  g path {
+    fill: none;
+    stroke: rgb(127, 154, 104);
+    stroke-width: 20px;
+  }
+}
+
+.fourth {
+  animation: Animation 8s ease forwards;
+  animation-delay: 11s;
+  path {
+    stroke: rgb(228, 88, 81);
+    stroke-width: 20.53px;
+  }
+}
+
+.third {
+  animation: Animation 5s ease forwards;
+  animation-delay: 7.5s;
+  path {
+    stroke: rgb(228, 88, 81);
+    stroke-width: 20.03px;
+  }
+}
+
+.second {
+  animation: Animation 10s ease forwards;
+  animation-delay: 4.5s;
+  path {
+    stroke: rgb(228, 88, 81);
+    stroke-width: 16.88px;
+    stroke-miterlimit: 1.5;
+  }
+}
+
+.first {
+  animation: Animation 10s ease forwards;
+  animation-delay: 1.5s;
+  path {
+    stroke: rgb(228, 88, 81);
+    stroke-width: 20.03px;
+    stroke-miterlimit: 1.5;
+  }
+}
+
+@keyframes Animation {
+  100% {
+    stroke-dashoffset: 0%;
+  }
+}
